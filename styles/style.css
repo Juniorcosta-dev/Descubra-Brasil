@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #0476D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza os títulos h1 */
+
+h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    color: #F2E205;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    align-items: center;
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #04BF8A;
+    color: #F2E205;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Estilizando resultados-pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: aut; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+}    
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    width: 60rem;
+    background-color: #04bf8a60;
+    color: #ffffff;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    color: #F2E205;
+    font-size: 1.5rem;
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a{
+    text-decoration: none;
+    color: #F2E205;
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline;
+}
+
+.descricao-meta {
+    color: #F2E205;
+    margin: 0.5rem 0;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #04BF8A;
+    border-radius: 0.5rem;
+}
+
+/* Estilização do info estados(div)*/
+.info-estado {
+    color: #ffffff;
+}
+
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #04BF8A;
+    color: #fffccf;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+}
+
+
+

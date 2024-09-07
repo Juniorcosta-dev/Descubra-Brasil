@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estados Brasileiros</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsivo.css">
+</head>
+
+<body>
+
+    <header>
+        <H1>Descubra o Brasil!</H1>
+    </header>
+
+    <main>
+
+        <section>
+            <input type="text" id="buscar" placeholder="Digite o nome do estado">
+            <button onclick="buscarEstados()">Buscar</button>
+        </section>
+
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>2024 - Estados Brasileiros. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: jr@brasileiros.com.br</p>
+    </footer>
+
+    <script src="script/dados.js"></script>
+    <script src="script/app.js"></script>
+
+</body>
+
+</html>
